@@ -78,7 +78,7 @@ function generateGitHubMarkdownList(
       markdown += `#### ${key}\n`
       markdown += generateGitHubMarkdownList(
         obj[key] as GroupedData,
-        `${pathPrefix}/${key.toLowerCase()}`,
+        `${pathPrefix}/${key}`,
       )
     }
   })
