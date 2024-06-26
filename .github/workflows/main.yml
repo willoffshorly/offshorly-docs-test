@@ -1,0 +1,38 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  test:
+    uses: './.github/workflows/test.yml'
+  update-readme:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Checkout Code'
+        uses: 'actions/checkout@v4'
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Check if commit was made by GitHub Actions
+        id: check_commit
+        run: |
+          if git log -1 --pretty=%B | grep -q 'Automated commit by GitHub Actions:'; then
+            echo "Commit was made by GitHub Actions, exiting..."
+            exit 0
+          fi
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Automated commit by GitHub Actions: Rebuild README"
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push origin main
