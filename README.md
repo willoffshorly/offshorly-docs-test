@@ -49,8 +49,21 @@ With this, you can start writing content that will be validated on save
 #### AWS
 
 - [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
+- [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
-- [Authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/Authentication.md)
+- [authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/authentication.md)
+
+#### Database
+
+#### Prisma
+
+- [client.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/client.md)
+
+- [pagination.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/pagination.md)
+
+- [schema.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/schema.md)
+
+- [setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/setup.md)
 
 #### Git
 
@@ -74,10 +87,11 @@ With this, you can start writing content that will be validated on save
 #### Bug Fixes
 
 - [CORS error.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Frontend/Bug%20Fixes/CORS%20error.md)
+- [CORS error.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Frontend/Bug%20Fixes/CORS%20error.md)
 
 #### Fundamentals
 
-- [Methods.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Fundamentals/Methods.md)
+- [methods.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Fundamentals/methods.md)
 
 #### Packages
 
