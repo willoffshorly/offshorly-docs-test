@@ -48,24 +48,24 @@ With this, you can start writing content that will be validated on save
 
 #### AWS
 
-- [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/cloud/aws/AWS%20lambda.md)
+- [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
-- [Authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/cloud/aws/Authentication.md)
+- [Authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/Authentication.md)
 
 #### Git
 
 #### Bug fixes
 
-- [SSH authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/bug%20fixes/SSH%20authentication.md)
+- [SSH authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/Bug%20fixes/SSH%20authentication.md)
 
-- [qwe.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/bug%20fixes/qwe.md)
-- [cherry-picking.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/cherry-picking.md)
+- [qwe.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/Bug%20fixes/qwe.md)
+- [cherry-picking.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/cherry-picking.md)
 
-- [pulling.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/pulling.md)
+- [pulling.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/pulling.md)
 
-- [pushing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/pushing.md)
+- [pushing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/pushing.md)
 
-- [stashing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/git/stashing.md)
+- [stashing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/stashing.md)
 
 #### Javascript
 
@@ -73,23 +73,22 @@ With this, you can start writing content that will be validated on save
 
 #### Bug Fixes
 
-- [CORS error.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/javascript/frontend/bug%20fixes/CORS%20error.md)
+- [CORS error.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Frontend/Bug%20Fixes/CORS%20error.md)
 
 #### Fundamentals
 
-- [Methods.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/javascript/fundamentals/Methods.md)
+- [Methods.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Fundamentals/Methods.md)
 
 #### Packages
 
-- [axios.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/packages/axios.md)
+- [axios.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/axios.md)
 
-- [memo.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/packages/memo.md)
+- [memo.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/memo.md)
 
-- [tailwind.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/packages/tailwind.md)
+- [tailwind.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/tailwind.md)
 
-- [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/packages/zod.md)
+- [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
 
 #### Setup
 
-- [IDE Setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/setup/IDE%20Setup.md)
-  
+- [IDE Setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Setup/IDE%20Setup.md)
