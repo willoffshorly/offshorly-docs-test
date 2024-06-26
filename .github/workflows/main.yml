@@ -8,6 +8,9 @@ jobs:
   test:
     uses: './.github/workflows/test.yml'
   update-readme:
+    permissions:
+      contents: write
+    needs: test
     runs-on: 'ubuntu-latest'
     steps:
       - name: 'Checkout Code'
