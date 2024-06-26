@@ -32,6 +32,3 @@ jobs:
 
       - name: 'Check for Markdown lint errors'
         run: 'node dist/scripts/checkErrors.js'
-
-      - name: 'Rebuild README.md'
-        run: 'node dist/scripts/buildReadme.js'
