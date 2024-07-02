@@ -7,6 +7,9 @@ import { installVsCodeExtension } from './scripts/helpers.js'
 import lintMdFiles from './scripts/lint.js'
 import mapContent from './scripts/mapContent.js'
 ;(async () => {
+  const argvs = process.argv
+  const enableReadmeOverwrite =
+    argvs.includes('--enableOverwrite') || argvs.includes('-e')
   //Install VSCode extensions
   await new Promise<void>((resolve) => {
     setTimeout(async () => {
@@ -43,8 +46,12 @@ import mapContent from './scripts/mapContent.js'
       )
 
       console.log(chalk.blue(`\n${validCount}/${values.length} Valid MD Files`))
+      if (validCount === values.length)
+        console.log(
+          chalk.green(`\nAll files are valid. you can now commit you changes.`),
+        )
 
-      if (validCount === values.length) {
+      if (validCount === values.length && enableReadmeOverwrite) {
         console.log(chalk.yellow('Updating README.md'))
         const tableOfContents = mapContent()
         let readme = await readFile('READMEBASE.md', { encoding: 'utf-8' })
@@ -53,6 +60,11 @@ import mapContent from './scripts/mapContent.js'
 
         await writeFile('README.md', readme)
         console.log(chalk.green('README.md updated!'))
+        console.log(
+          chalk.yellow(
+            '[WARNING]: Overwrite is enabled, DO NOT COMMIT README file. ',
+          ),
+        )
       }
     }
   })

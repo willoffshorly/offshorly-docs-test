@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "pnpm build && concurrently \"nodemon dist/index.js\" \"pnpm watch\"",
+    "dev:overwrite": "pnpm build && concurrently \"nodemon dist/index.js -- -e\" \"pnpm watch\"",
     "prepare": "husky",
     "watch": "tsc --watch"
   },
