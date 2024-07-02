@@ -12,7 +12,9 @@ This project has helper functions for linting markdown files which is necessary 
 
 ### Prerequisites
 
-It is recommended to use VSCode as the code editor of choice as there are extensions that are needed to lint markdown errors. Download Vscode [here](https://code.visualstudio.com/download)
+- It is recommended to use **VSCode** as the code editor of choice as there are extensions that are needed to lint markdown errors. Download VSCode [here](https://code.visualstudio.com/download)
+
+- It is recommended to use **PNPM**. download PNPM [here](https://pnpm.io/installation)
 
 To start the development app, follow these commands:
 
@@ -31,14 +33,13 @@ To start the development app, follow these commands:
 
 this should start the dev app and rebuild the app for changes
 
-With this, you can start writing content that will be validated on save
+You can also start the development app with readme rewrites enabled by using the command:
 
-### Todo
+        pnpm dev:overwrite
 
-1.  **Testing**
-    Test files within the content folder if it is markdown
-2.  **CI / CD**
-    Create github workflow that will trigger for PR Requests to ensure content follows the linting guide.
+With this, you can start writing content that will be validated on save.
+
+Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten once your PR is accepted to the main branch.
 
 ---
 
