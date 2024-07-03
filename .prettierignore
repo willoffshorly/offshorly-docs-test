@@ -1,2 +1,3 @@
 # Ignore Artifacts:
 dist
+pnpm-lock.yaml
