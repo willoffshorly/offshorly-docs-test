@@ -10,7 +10,8 @@
     "dev": "pnpm build && concurrently \"nodemon dist/index.js\" \"pnpm watch\"",
     "dev:overwrite": "pnpm build && concurrently \"nodemon dist/index.js -- -e\" \"pnpm watch\"",
     "prepare": "husky",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "markdownlint": "markdownlint 'content/**/*.md'"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "markdownlint": "^0.34.0",
+    "markdownlint-cli": "^0.41.0",
     "nodemon": "^3.1.4",
     "prettier": "3.3.2",
     "typescript": "^5.5.2",
@@ -37,6 +39,7 @@
     "figlet": "^1.7.0"
   },
   "lint-staged": {
+    "**/*.md": "pnpm markdownlint",
     "**/*": "prettier --write --ignore-unknown"
   }
 }
