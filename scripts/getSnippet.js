@@ -150,4 +150,6 @@ function processAllMarkdownFiles(dirPath) {
   })
 }
 
+processAllMarkdownFiles('content')
+
 export default processSnippets
