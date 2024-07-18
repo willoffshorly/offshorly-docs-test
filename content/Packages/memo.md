@@ -1,6 +1,6 @@
 # Sample 2
 
-<!--snippet-->
+<!--snippet 3913672bd3076ee453602daa96805fdd-->
 <!--title: Subtract-->
 <!--descr: Subtract two numbers-->
 

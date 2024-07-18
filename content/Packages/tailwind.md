@@ -11,7 +11,7 @@ def tailwind():
 
 <!--/snippet-->
 
-<!--snippet a313adc415b6926310505fa3812fe4e9-->
+<!--snippet 4a897382c3c0041e209142300ceb4a2d-->
 <!--title: Testing Html-->
 <!--descr: Testing the tailwind function-->
 
