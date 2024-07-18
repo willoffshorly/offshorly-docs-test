@@ -121,7 +121,7 @@ async function processSnippets(filePath) {
     console.log('hash', payload.hashes)
     console.log('code', payload.snippets)
 
-    // send to the server
+    // send to the live  server
     const response = await fetch(
       'https://kb-backend-ompt.onrender.com/api/code_snippet',
       {
