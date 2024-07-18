@@ -1,6 +1,6 @@
 # Sample
 
-<!--snippet 0a487342cfe5a2e09420979b4e998be6-->
+<!--snippet-->
 <!--title: Testing-->
 <!--descr: Testing the tailwind function-->
 

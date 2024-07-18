@@ -19,9 +19,9 @@ mySchema.safeParse('tuna') // => { success: true; data: "tuna" }
 mySchema.safeParse(12) // => { success: false; error: ZodError }
 ```
 
-We can define tdhe schema as an object like this:
+We can define the schema as an object like this:
 
-<!--snippet 8e7818891e9ab9f923a753ea16fe99b3-->
+<!--snippet-->
 <!--title: Define object-->
 <!--descr: We can define the schema as an object like this-->
 

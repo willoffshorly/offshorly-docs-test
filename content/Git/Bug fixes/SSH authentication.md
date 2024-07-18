@@ -23,6 +23,10 @@ Assuming you already have an SSH key associated with your `user1` account, you c
 
 2. Add the following lines to the file:
 
+   <!--snippet-->
+   <!--title: Testing title-->
+   <!--descr: Testing description-->
+
    ```yml
    Host github.com
    HostName github.com
@@ -34,6 +38,8 @@ Assuming you already have an SSH key associated with your `user1` account, you c
    User git
    IdentityFile ~/.ssh/user_id2
    ```
+
+   <!--/snippet-->
 
    Replace `user_id2` with the actual name of your SSH key file for your `user2` account.
 
