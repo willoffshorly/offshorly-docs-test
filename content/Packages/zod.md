@@ -21,6 +21,10 @@ mySchema.safeParse(12) // => { success: false; error: ZodError }
 
 We can define the schema as an object like this:
 
+<!--snippet-->
+<!--title: Define object-->
+<!--descr: We can define the schema as an object like this-->
+
 ```js
 // all properties are required by default
 const Dog = z.object({ name: z.string(), age: z.number(), });
@@ -31,3 +35,5 @@ type Dog = z.infer<typeof Dog>;
 // equivalent to:
 type Dog = { name: string; age: number; };
 ```
+
+<!--/snippet-->
