@@ -23,7 +23,7 @@ Assuming you already have an SSH key associated with your `user1` account, you c
 
 2. Add the following lines to the file:
 
-   <!--snippet-->
+   <!--snippet 92576f30bdf31868dfe407eee88ff97a-->
    <!--title: Testing title-->
    <!--descr: Testing description-->
 

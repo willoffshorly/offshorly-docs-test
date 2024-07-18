@@ -21,7 +21,7 @@ mySchema.safeParse(12) // => { success: false; error: ZodError }
 
 We can define the schema as an object like this:
 
-<!--snippet-->
+<!--snippet 8e7818891e9ab9f923a753ea16fe99b3-->
 <!--title: Define object-->
 <!--descr: We can define the schema as an object like this-->
 
