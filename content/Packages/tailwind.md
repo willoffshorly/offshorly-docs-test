@@ -11,12 +11,12 @@ def tailwind():
 
 <!--/snippet-->
 
-<!--snippet-->
+<!--snippet a313adc415b6926310505fa3812fe4e9-->
 <!--title: Testing Html-->
 <!--descr: Testing the tailwind function-->
 
 ```html
-<div class="bg-blue-500 text-white p-4">
+<div class="bg-blue-5000 text-white p-4">
   <h1 class="text-2xl">Hello World</h1>
 </div>
 ```
