@@ -10,7 +10,10 @@ import path from 'path'
  * @returns hash of the snippet
  */
 function hashSnippet(snippet) {
-  return crypto.createHash('md5').update(snippet).digest('hex')
+  // Normalize line endings and trim whitespace
+  const normalizedSnippet = snippet.replace(/\r\n/g, '\n').trim()
+  // console.log('Hashing content:', normalizedSnippet); // For debugging
+  return crypto.createHash('md5').update(normalizedSnippet).digest('hex')
 }
 
 /**
@@ -26,6 +29,7 @@ function extractSnippetsFromFile(filePath) {
     /<!--snippet(?:\s+([a-f0-9]{32}))?-->\s*(<!--title:\s*.*?-->\s*)?\s*(<!--descr:\s*.*?-->\s*)?\s*```(\w+)\s*\n([\s\S]*?)\n\s*```[\s\S]*?<!--\/snippet-->/g
   let match
   let snippets = []
+  let collectionHash = []
 
   while ((match = regex.exec(fileContent)) !== null) {
     const existingHash = match[1] || ''
@@ -35,10 +39,14 @@ function extractSnippetsFromFile(filePath) {
     const content = match[5]
     const hash = hashSnippet(content)
 
-    snippets.push({ title, desc, content, language, hash })
+    if (existingHash && existingHash !== hash) {
+      console.log(`Hash mismatch in ${filePath}`)
+      snippets.push({ title, desc, content, language, hash })
+      collectionHash.push(existingHash)
+    }
   }
 
-  return snippets
+  return { snippets, collectionHash }
 }
 
 /**
@@ -97,13 +105,38 @@ function cleanSnippets(snippets) {
  *
  * @returns void
  */
-function processSnippets(filePath) {
+async function processSnippets(filePath) {
   try {
-    const snippets = extractSnippetsFromFile(filePath)
+    const { snippets, collectionHash } = extractSnippetsFromFile(filePath)
     const cleanedSnippets = cleanSnippets(snippets)
     console.log(cleanedSnippets)
     addHashToFile(filePath)
     console.log('Hashes added to file')
+
+    // prepare the payload
+    const payload = {
+      hashes: collectionHash,
+      snippets: cleanedSnippets,
+    }
+    console.log('hash', payload.hashes)
+    console.log('code', payload.snippets)
+
+    // send to the server
+    const response = await fetch(
+      'https://kb-backend-ompt.onrender.com/api/code_snippet',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      },
+    )
+
+    if (!response.ok) {
+      throw new Error('Failed to send snippets to the server')
+    }
+    console.log('Snippets sent successfully')
   } catch (error) {
     console.error(error.message)
   }
