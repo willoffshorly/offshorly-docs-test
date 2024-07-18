@@ -39,11 +39,8 @@ function extractSnippetsFromFile(filePath) {
     const content = match[5]
     const hash = hashSnippet(content)
 
-    if (existingHash && existingHash !== hash) {
-      console.log(`Hash mismatch in ${filePath}`)
-      snippets.push({ title, desc, content, language, hash })
-      collectionHash.push(existingHash)
-    }
+    snippets.push({ title, desc, content, language, hash })
+    collectionHash.push(existingHash)
   }
 
   return { snippets, collectionHash }

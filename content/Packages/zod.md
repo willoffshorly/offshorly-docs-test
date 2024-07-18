@@ -21,7 +21,7 @@ mySchema.safeParse(12) // => { success: false; error: ZodError }
 
 We can define the schema as an object like this:
 
-<!--snippet 2aea09fbd6133f5af4e6a409b8f21fd2-->
+<!--snippet-->
 <!--title: Define object-->
 <!--descr: We can define the schema as an object like this-->
 
@@ -32,7 +32,7 @@ const Dog = z.object({ name: z.string(), age: z.number(), });
 // extract the inferred type like this
 type Dog = z.infer<typeof Dog>;
 
-// equivalent to:
+// equivalent toyeye:
 type Dog = { name: string; age: number; };
 ```
 
