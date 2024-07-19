@@ -4,7 +4,7 @@ zod is a TypeScript-first schema declaration and validation library.
 
 [read more](https://zod.dev/)
 
-<!--snippet 7a5270dec9221a98ed029be94ad81170-->
+<!--snippet-->
 <!--title: Zod import-->
 <!--descr: Just a zod-->
 
