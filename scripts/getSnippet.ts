@@ -145,33 +145,6 @@ async function processSnippets(filePath: any) {
   }
 }
 
-// /**
-//  * @description Function to get all markdown file paths in a directory
-//  *
-//  * @input dir
-//  * @input fileList
-//  *
-//  * @returns List of markdown file paths
-//  */
-// function getMdPaths(dir:any, fileList = []) {
-//   const files = fs.readdirSync(dir)
-
-//   files.forEach((file) => {
-//     const filePath = path.join(dir, file)
-//     const stat = fs.statSync(filePath)
-
-//     if (stat.isDirectory()) {
-//       // Recursively search in the subdirectory
-//       getMdPaths(filePath, fileList)
-//     } else if (path.extname(file) === '.md') {
-//       // If it's a markdown file, add it to the list
-//       fileList.push(filePath)
-//     }
-//   })
-
-//   return fileList
-// }
-
 /**
  * @description Function to process all markdown files in a directory
  *

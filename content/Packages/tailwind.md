@@ -8,7 +8,7 @@ print("Tailwind CSS is a utility-first CSS framework for rapidly building custom
 
 Perform if else condition in python .
 
-<!--snippet-->
+<!--snippet 7d1faf44c35bb85fabe3fe7f70b0c1ce-->
 <!--title: test-->
 <!--descr: Just a python-->
 
