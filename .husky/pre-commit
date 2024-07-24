@@ -1,3 +1,3 @@
 echo "Running pre-commit hook..."
 pnpm exec lint-staged
-node scripts/getSnippet.js
+node dist/scripts/getSnippet.js

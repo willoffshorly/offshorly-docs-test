@@ -8,9 +8,15 @@ print("Tailwind CSS is a utility-first CSS framework for rapidly building custom
 
 Perform if else condition in python .
 
+<!--snippet-->
+<!--title: test-->
+<!--descr: Just a python-->
+
 ```python
 a = 33
 b = 200
 if b > a:
   print("b is greater than a")
 ```
+
+<!--/snippet-->
