@@ -4,11 +4,15 @@ zod is a TypeScript-first schema declaration and validation library.
 
 [read more](https://zod.dev/)
 
+<!--snippet abf5728a0c3cd864bd2e3e777f390a0f-->
+<!--title: Zod import-->
+<!--descr: Just a zod-->
+
 ```js
 import { z } from 'zod'
 
 // creating a schema for strings
-const mySchema = z.string()
+const itsme = z.string()
 
 // parsing
 mySchema.parse('tuna') // => "tuna"
@@ -18,6 +22,8 @@ mySchema.parse(12) // => throws ZodError
 mySchema.safeParse('tuna') // => { success: true; data: "tuna" }
 mySchema.safeParse(12) // => { success: false; error: ZodError }
 ```
+
+<!--/snippet-->
 
 We can define the schema as an object like this:
 
