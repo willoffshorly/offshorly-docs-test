@@ -100,6 +100,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [tailwind.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/tailwind.md)
 
+- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test.md)
+
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
 
 #### Setup
