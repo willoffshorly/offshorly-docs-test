@@ -105,3 +105,4 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 #### Setup
 
 - [IDE Setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Setup/IDE%20Setup.md)
+  
