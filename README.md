@@ -18,16 +18,16 @@ This project has helper functions for linting markdown files which is necessary 
 
 To start the development app, follow these commands:
 
-1.  Use proper Node version
+1. Use proper Node version
     It is recommended to use nvm to quickly change node versions. This command will use the indicated Node version in the `.nvmrc` file.
 
         nvm use
 
-2.  Install dependencies:
+2. Install dependencies:
 
         pnpm i
 
-3.  Start development app:
+3. Start development app:
 
         pnpm dev
 
