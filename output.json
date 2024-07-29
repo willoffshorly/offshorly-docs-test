@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Cloud/AWS/Authentication.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "AWS Lambda",
+      "desc": "No description found",
+      "path": "content/Cloud/AWS/AWS lambda.md",
+      "author": "No author found",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "PrismaClient",
+      "desc": "No description found",
+      "path": "content/Database/Prisma/client.md",
+      "author": "sirj@Jasons-MacBook-Air.local",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Pagination",
+      "desc": "Pagination in Prisma is done in two (2) ways: `cursor-based` and `seek-based`:",
+      "path": "content/Database/Prisma/pagination.md",
+      "author": "sirj@Jasons-MacBook-Air.local",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Prisma Schema",
+      "desc": "Suppose you have two models User and Post. Each post belongs to a user, so you want to define a relation between them.",
+      "path": "content/Database/Prisma/schema.md",
+      "author": "sirj@Jasons-MacBook-Air.local",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Setup",
+      "desc": "Here we have the following steps for setting up a Prisma client and the database migration:",
+      "path": "content/Database/Prisma/setup.md",
+      "author": "sirj@Jasons-MacBook-Air.local",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Test",
+      "desc": "No description found",
+      "path": "content/Git/Bug fixes/qwe.md",
+      "author": "No author found",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "PROBLEM",
+      "desc": "When running git pull, I'm receiving the error: `ERROR: Repository not found. fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.`",
+      "path": "content/Git/Bug fixes/SSH authentication.md",
+      "author": "No author found",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Git/cherry-picking.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Git/pulling.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Git/pushing.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Git/stashing.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Javascript/Frontend/Bug Fixes/CORS error.md",
+      "author": "No author found",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "map()",
+      "desc": "No description found",
+      "path": "content/Javascript/Fundamentals/Methods.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Packages/axios.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Packages/memo.md",
+      "author": "134026948+migsoffshorly@users.noreply.github.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Sample",
+      "desc": "What is Tailwind CSS using python print statement?",
+      "path": "content/Packages/tailwind.md",
+      "author": "will@offshorly.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "Testing the offshorly docs",
+      "desc": "This is a test file to see if the offshorly docs are working correctly.",
+      "path": "content/Packages/test.md",
+      "author": "will@offshorly.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "zod validation",
+      "desc": "zod is a TypeScript-first schema declaration and validation library.",
+      "path": "content/Packages/zod.md",
+      "author": "will@offshorly.com",
+      "source": "INTERNAL"
+    },
+    {
+      "title": "No title found",
+      "desc": "No description found",
+      "path": "content/Setup/IDE Setup.md",
+      "author": "No author found",
+      "source": "INTERNAL"
+    }
+  ]
+}
