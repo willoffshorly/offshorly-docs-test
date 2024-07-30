@@ -4,7 +4,6 @@ import { exec } from 'child_process';
 import path from 'path';
 
 async function getAuthor(filePath : any) {
-  // Normalize file path for the shell command
   const normalizedFilePath = path.normalize(filePath).replace(/\\/g, '/');
   console.log(`Normalized file path: ${normalizedFilePath}`);
   
@@ -12,17 +11,25 @@ async function getAuthor(filePath : any) {
       const command = `git log -1 --pretty=format:%ae -- "${normalizedFilePath}"`;
       console.log(`Executing command: ${command}`);
       
-      exec(command, (error, stdout, stderr) => {
-          if (error) {
-              console.error(`Error executing command: ${stderr}`);
-              reject(stderr);
+      exec(command, async (error, stdout, stderr) => {
+          if (error || !stdout.trim()) {
+              console.error(`Error or no commit found: ${stderr || 'No previous commits'}`);
+              
+              // Fallback to git configuration email if no commit found
+              const fallbackCommand = `git config user.email`;
+              exec(fallbackCommand, (fallbackError, fallbackStdout, fallbackStderr) => {
+                  if (fallbackError) {
+                      console.error(`Error executing fallback command: ${fallbackStderr}`);
+                      reject(fallbackStderr);
+                  } else {
+                      const fallbackEmail = fallbackStdout.trim();
+                      console.log(`Fallback email: ${fallbackEmail}`);
+                      resolve(fallbackEmail);
+                  }
+              });
           } else {
               const authorEmail = stdout.trim();
               console.log(`Command output: ${authorEmail}`);
-              
-              if (!authorEmail) {
-                  console.log('No author email found. Please check the commit history and file path.');
-              }
               resolve(authorEmail);
           }
       });
