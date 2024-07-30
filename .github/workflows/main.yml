@@ -3,8 +3,7 @@ name: Main
 on:
   push:
     branches:
-      - 'test-pr'
-
+      - 'main'
 jobs:
   test:
     uses: './.github/workflows/test.yml'
@@ -58,4 +57,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push origin test-pr
+          git push origin main
