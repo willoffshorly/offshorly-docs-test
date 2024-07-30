@@ -32,3 +32,6 @@ jobs:
 
       - name: 'Check for Markdown lint errors'
         run: 'node dist/scripts/checkErrors.js'
+
+      - name: 'Run getSnippet.js script'
+        run: node dist/scripts/getSnippet.js
