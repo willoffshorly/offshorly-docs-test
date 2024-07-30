@@ -9,3 +9,4 @@ AWS Lambda is a serverless compute service that runs your code in response to ev
 - **Subsecond metering**: Pay only for the compute time you consume.
 - **Integrated security model**: Automatically execute code in response to HTTP requests via Amazon API Gateway, or expose your code as a RESTful API.
 - **Integrated monitoring**: Monitor your functions in near real-time using Amazon CloudWatch.
+- **Integrated logging**: Monitor, troubleshoot, and optimize your functions using AWS CloudTrail and AWS CloudWatch Logs.
