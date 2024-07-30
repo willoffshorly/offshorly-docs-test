@@ -1,17 +1,32 @@
 import fs from 'fs/promises';
 import getMdPaths from './getMdPaths.js'
 import { exec } from 'child_process';
+import path from 'path';
 
 async function getAuthor(filePath : any) {
-    return new Promise((resolve, reject) => {
-        exec(`git log -1 --pretty=format:%ae -- ${filePath}`, (error, stdout, stderr) => {
-            if (error) {
-                reject(stderr);
-            } else {
-                resolve(stdout.trim());
-            }
-        });
-    });
+  // Normalize file path for the shell command
+  const normalizedFilePath = path.normalize(filePath).replace(/\\/g, '/');
+  console.log(`Normalized file path: ${normalizedFilePath}`);
+  
+  return new Promise((resolve, reject) => {
+      const command = `git log -1 --pretty=format:%ae -- "${normalizedFilePath}"`;
+      console.log(`Executing command: ${command}`);
+      
+      exec(command, (error, stdout, stderr) => {
+          if (error) {
+              console.error(`Error executing command: ${stderr}`);
+              reject(stderr);
+          } else {
+              const authorEmail = stdout.trim();
+              console.log(`Command output: ${authorEmail}`);
+              
+              if (!authorEmail) {
+                  console.log('No author email found. Please check the commit history and file path.');
+              }
+              resolve(authorEmail);
+          }
+      });
+  });
 }
 
 async function extractMdContent(filePath : any) {
@@ -23,19 +38,19 @@ async function extractMdContent(filePath : any) {
     let isReadingDescription = false;
     let emptyLineCount = 0;
 
-    console.log("--- Start of file processing ---");
-    console.log("Total lines:", lines.length);
+    // console.log("--- Start of file processing ---");
+    // console.log("Total lines:", lines.length);
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         const trimmedLine = line.trim();
         
-        console.log(`Line ${i + 1}:`, JSON.stringify(trimmedLine));
+        // console.log(`Line ${i + 1}:`, JSON.stringify(trimmedLine));
 
         if (!title && trimmedLine.startsWith('#')) {
             // Found the title
             title = trimmedLine.replace(/^#+\s*/, '').trim();
-            console.log("Title found:", title);
+            // console.log("Title found:", title);
             isReadingDescription = true;
             continue;
         }
@@ -44,26 +59,28 @@ async function extractMdContent(filePath : any) {
             if (trimmedLine === '') {
                 emptyLineCount++;
                 if (emptyLineCount > 1 || description !== '') {
-                    console.log("Second empty line or end of description found");
+                    // console.log("Second empty line or end of description found");
                     break;
                 }
             } else {
                 emptyLineCount = 0;
                 if (trimmedLine.startsWith('#')) {
-                    console.log("New heading found, ending description capture");
+                    // console.log("New heading found, ending description capture");
                     break;
                 }
                 description += (description ? ' ' : '') + trimmedLine;
-                console.log("Current description:", description);
+                // console.log("Current description:", description);
             }
         }
     }
 
-    console.log("--- End of file processing ---");
-    console.log("Final title:", title);
-    console.log("Final description:", description);
+    // console.log("--- End of file processing ---");
+    // console.log("Final title:", title);
+    // console.log("Final description:", description);
 
     const author = await getAuthor(filePath);
+
+    // console.log("=================================================================")
 
     return {
         title: title || "No title found",
