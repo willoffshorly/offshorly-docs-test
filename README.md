@@ -51,60 +51,21 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
-- [Authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/Authentication.md)
-
 #### Database
 
 #### Prisma
 
-- [client.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/client.md)
-
 - [pagination.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/pagination.md)
-
-- [schema.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/schema.md)
 
 - [setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/setup.md)
 
-#### Git
-
-#### Bug fixes
-
-- [SSH authentication.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/Bug%20fixes/SSH%20authentication.md)
-
-- [qwe.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/Bug%20fixes/qwe.md)
-- [cherry-picking.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/cherry-picking.md)
-
-- [pulling.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/pulling.md)
-
-- [pushing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/pushing.md)
-
-- [stashing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Git/stashing.md)
-
-#### Javascript
-
-#### Frontend
-
-#### Bug Fixes
-
-- [CORS error.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Frontend/Bug%20Fixes/CORS%20error.md)
-
-#### Fundamentals
-
-- [Methods.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Javascript/Fundamentals/Methods.md)
-
 #### Packages
-
-- [axios.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/axios.md)
-
-- [memo.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/memo.md)
-
-- [tailwind.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/tailwind.md)
 
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test.md)
 
+- [test2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test2.md)
+
+- [test3.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test3.md)
+
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
-
-#### Setup
-
-- [IDE Setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Setup/IDE%20Setup.md)
   
