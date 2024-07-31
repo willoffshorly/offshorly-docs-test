@@ -67,5 +67,7 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [test3.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test3.md)
 
+- [test4.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test4.md)
+
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
   
