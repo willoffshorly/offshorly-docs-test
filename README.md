@@ -61,6 +61,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Packages
 
+- [snipper.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/snipper.md)
+
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test.md)
 
 - [test2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test2.md)
