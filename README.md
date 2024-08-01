@@ -78,4 +78,18 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [test7.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test7.md)
 
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
+
+#### Project
+
+- [Authentication in Express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Authentication%20in%20Express.md)
+
+- [Automated Testing with Jest and Mocha.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Automated%20Testing%20with%20Jest%20and%20Mocha.md)
+
+- [Developing Progressive Web Apps PWAs.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Developing%20Progressive%20Web%20Apps%20PWAs.md)
+
+- [How to create Pagination in Express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/How%20to%20create%20Pagination%20in%20Express.md)
+
+- [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
+
+- [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
   
