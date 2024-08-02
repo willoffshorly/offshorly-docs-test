@@ -1,3 +1,3 @@
-# Testing the offshorly docs
+# Testing MD file
 
-This is a test file to see if the offshorly docs are working correctly.
+This is a test markdown file for testing the markdown parser.

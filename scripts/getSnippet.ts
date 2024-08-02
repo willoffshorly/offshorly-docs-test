@@ -5,15 +5,15 @@ import path from 'path';
 
 async function getAuthor(filePath : any) {
   const normalizedFilePath = path.normalize(filePath).replace(/\\/g, '/');
-  console.log(`Normalized file path: ${normalizedFilePath}`);
+  // console.log(`Normalized file path: ${normalizedFilePath}`);
   
   return new Promise((resolve, reject) => {
       const command = `git log -1 --pretty=format:%ae -- "${normalizedFilePath}"`;
-      console.log(`Executing command: ${command}`);
+      // console.log(`Executing command: ${command}`);
       
       exec(command, async (error, stdout, stderr) => {
           if (error || !stdout.trim()) {
-              console.error(`Error or no commit found: ${stderr || 'No previous commits'}`);
+              // console.error(`Error or no commit found: ${stderr || 'No previous commits'}`);
               
               // Fallback to git configuration email if no commit found
               const fallbackCommand = `git config user.email`;
@@ -23,13 +23,13 @@ async function getAuthor(filePath : any) {
                       reject(fallbackStderr);
                   } else {
                       const fallbackEmail = fallbackStdout.trim();
-                      console.log(`Fallback email: ${fallbackEmail}`);
+                      // console.log(`Fallback email: ${fallbackEmail}`);
                       resolve(fallbackEmail);
                   }
               });
           } else {
               const authorEmail = stdout.trim();
-              console.log(`Command output: ${authorEmail}`);
+              // console.log(`Command output: ${authorEmail}`);
               resolve(authorEmail);
           }
       });
@@ -90,9 +90,9 @@ async function extractMdContent(filePath : any) {
     // console.log("=================================================================")
 
     return {
-        title: title || "No title found",
-        description: description || "No description found",
-        author: author || "No author found"
+        title: title || "",
+        description: description || "",
+        author: author || ""
     };
 }
 
@@ -102,6 +102,7 @@ async function processMarkdownFiles(directory:any) {
   const filesData = [];
 
   for (const filePath of mdFiles) {
+    console.log(`Processing file: ${filePath}`);
     const { title, description, author } = await extractMdContent(filePath);
     // Replace backslashes with forward slashes
     const normalizedPath = filePath.replace(/\\/g, '/');
@@ -124,7 +125,7 @@ async function main() {
     const filesData = await processMarkdownFiles(directory);
     const output = { files: filesData };
     
-    const response = await fetch('http://localhost:3000/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
+    const response = await fetch('https://stg-kb-backend.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
