@@ -13,7 +13,7 @@ async function getAuthor(filePath : any) {
       
       exec(command, async (error, stdout, stderr) => {
           if (error || !stdout.trim()) {
-              // console.error(`Error or no commit found: ${stderr || 'No previous commits'}`);
+              console.error(`Error or no commit found: ${stderr || 'No previous commits'}`);
               
               // Fallback to git configuration email if no commit found
               const fallbackCommand = `git config user.email`;
