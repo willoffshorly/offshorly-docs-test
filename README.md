@@ -61,23 +61,7 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Packages
 
-- [snipper.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/snipper.md)
-
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test.md)
-
-- [test2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test2.md)
-
-- [test3.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test3.md)
-
-- [test4.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test4.md)
-
-- [test5.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test5.md)
-
-- [test6.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test6.md)
-
-- [test7.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test7.md)
-
-- [test8.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test8.md)
 
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
 
@@ -94,4 +78,16 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
 
 - [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
+
+#### Test
+
+- [auth_express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/auth_express.md)
+
+- [firebase_with_github_auth.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
+
+- [login_ui_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/login_ui_react.md)
+
+- [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
+
+- [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
   
