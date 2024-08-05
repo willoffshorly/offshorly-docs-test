@@ -125,7 +125,7 @@ async function main() {
     const filesData = await processMarkdownFiles(directory);
     const output = { files: filesData };
     
-    const response = await fetch('https://stg-kb-backend.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
+    const response = await fetch('https://kb-backend-dev.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
