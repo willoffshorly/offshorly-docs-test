@@ -93,6 +93,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
 
+- [thisIsJustATest.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/thisIsJustATest.md)
+
 - [will.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/will.md)
 
 - [will2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/will2.md)
