@@ -11,7 +11,7 @@ In Express.js, you can implement authentication using various strategies, includ
    First, install the necessary packages:
 
    ```bash
-   npm install express express-session passport passport-local bcryptjs Configure Passport
+   npm install express express-session passport passport-local bcryptjs
    ```
 
 2. **Configure Passport**
@@ -24,27 +24,27 @@ In Express.js, you can implement authentication using various strategies, includ
         const bcrypt = require('bcryptjs');
 
         passport.use(new LocalStrategy((username, password, done) => {
-        // Replace with your user lookup logic
-        User.findOne({ username: username }, (err, user) => {
-        if (err) return done(err);
-        if (!user) return done(null, false);
-        bcrypt.compare(password, user.password, (err, isMatch) => {
-        if (err) return done(err);
-        if (isMatch) return done(null, user);
-        else return done(null, false);
-        });
-        });
+           // Replace with your user lookup logic
+           User.findOne({ username: username }, (err, user) => {
+              if (err) return done(err);
+              if (!user) return done(null, false);
+              bcrypt.compare(password, user.password, (err, isMatch) => {
+                 if (err) return done(err);
+                 if (isMatch) return done(null, user);
+                 else return done(null, false);
+              });
+           });
         }));
 
         passport.serializeUser((user, done) => {
-        done(null, user.id);
+           done(null, user.id);
         });
 
         passport.deserializeUser((id, done) => {
-        // Replace with your user lookup logic
-        User.findById(id, (err, user) => {
-        done(err, user);
-        });
+           // Replace with your user lookup logic
+           User.findById(id, (err, user) => {
+              done(err, user);
+           });
         });
     ```
 
