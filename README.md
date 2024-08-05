@@ -83,8 +83,6 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Test
 
-- [auth_express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/auth_express.md)
-
 - [firebase_with_github_auth.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
 
 - [login_ui_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/login_ui_react.md)
@@ -92,10 +90,4 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
 
 - [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
-
-- [thisIsJustATest.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/thisIsJustATest.md)
-
-- [will.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/will.md)
-
-- [will2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/will2.md)
   
