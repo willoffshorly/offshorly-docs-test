@@ -12,3 +12,7 @@ AWS Lambda is a serverless compute service that runs your code in response to ev
 - **Integrated logging**: Monitor, troubleshoot, and optimize your functions using AWS CloudTrail and AWS CloudWatch Logs.
 
 ```py
+# print 
+def justAprint():
+    print("Hello, World!")
+```
