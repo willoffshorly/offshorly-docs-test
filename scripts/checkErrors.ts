@@ -8,9 +8,9 @@ import checkCodeSnippets from './checkCodeSnippetExist.js'
   const paths = getMdPaths('content', [])
   const pathMap: Record<string, boolean> = {}
   
-  // Check for code snippets in each file
+  // check for code snippets in each file
   for (const path of paths) {
-    console.log(`Checking file: ${path}`)
+    // console.log(`Checking file: ${path}`)
     pathMap[path] = false
     try {
       checkCodeSnippets(path)
@@ -18,7 +18,7 @@ import checkCodeSnippets from './checkCodeSnippetExist.js'
       if (err instanceof Error) {
         throw error(`File ${path} doesn't have a code snippet: ${err.message}`)
       } else {
-        throw error(`An unknown error occurred while checking ${path} for code snippets`)
+        throw error(`An error occurred while checking ${path} for code snippets`)
       }
     }
   }
