@@ -22,6 +22,7 @@ function checkCodeSnippets(filePath: string): void {
     } else {
       console.error('An unknown error occurred.');
     }
+    process.exit(1);
   }
 }
 
