@@ -61,6 +61,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Packages
 
+- [thisPackage.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/thisPackage.md)
+
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
 
 #### Project
