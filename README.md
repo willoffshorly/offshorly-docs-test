@@ -49,49 +49,51 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### AWS
 
-- [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
+- [AWS lambda.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
 #### Database
 
 #### Prisma
 
-- [pagination.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/pagination.md)
+- [pagination.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Database/Prisma/pagination.md)
 
-- [setup.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/setup.md)
+- [setup.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Database/Prisma/setup.md)
 
 #### Packages
 
-- [somethingUseful.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/somethingUseful.md)
+- [somethingUseful.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Packages/somethingUseful.md)
 
-- [thisPackage.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/thisPackage.md)
+- [thisPackage.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Packages/thisPackage.md)
 
-- [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
+- [zod.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Packages/zod.md)
 
 #### Project
 
-- [Authentication in Express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Authentication%20in%20Express.md)
+- [Authentication in Express.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/Authentication%20in%20Express.md)
 
-- [Automated Testing with Jest and Mocha.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Automated%20Testing%20with%20Jest%20and%20Mocha.md)
+- [Automated Testing with Jest and Mocha.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/Automated%20Testing%20with%20Jest%20and%20Mocha.md)
 
-- [Developing Progressive Web Apps PWAs.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Developing%20Progressive%20Web%20Apps%20PWAs.md)
+- [Developing Progressive Web Apps PWAs.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/Developing%20Progressive%20Web%20Apps%20PWAs.md)
 
-- [How to create Pagination in Express.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/How%20to%20create%20Pagination%20in%20Express.md)
+- [How to create Pagination in Express.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/How%20to%20create%20Pagination%20in%20Express.md)
 
-- [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
+- [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
 
-- [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
+- [Setting Up a Full-Stack Application with MERN.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
-- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/test.md)
+- [test.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Project/test.md)
 
 #### Test
 
-- [firebase_with_github_auth.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
+- [firebase_with_github_auth.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/firebase_with_github_auth.md)
 
-- [login_ui_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/login_ui_react.md)
+- [login_ui_react.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/login_ui_react.md)
 
-- [printing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/printing.md)
+- [printing.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/printing.md)
 
-- [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
+- [query_validator.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/query_validator.md)
 
-- [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
+- [registartion_react.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/registartion_react.md)
+
+- [will.md](https://github.com/willoffshorly/offshorly-docs-stg/tree/main/content/Test/will.md)
   
