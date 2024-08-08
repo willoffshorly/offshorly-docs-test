@@ -61,9 +61,9 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Packages
 
-- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test.md)
+- [somethingUseful.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/somethingUseful.md)
 
-- [test2.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/test2.md)
+- [thisPackage.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/thisPackage.md)
 
 - [zod.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
 
@@ -86,6 +86,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [firebase_with_github_auth.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
 
 - [login_ui_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/login_ui_react.md)
+
+- [printing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/printing.md)
 
 - [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
 

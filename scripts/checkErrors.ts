@@ -2,12 +2,26 @@ import { error } from 'console'
 import { LintResults } from 'markdownlint'
 import getMdPaths from './getMdPaths.js'
 import lintContent from './lintContent.js'
+import checkCodeSnippets from './checkCodeSnippetExist.js'
+
 ;(async function checkErrors() {
   const paths = getMdPaths('content', [])
   const pathMap: Record<string, boolean> = {}
-  paths.forEach((path) => {
+  
+  // check for code snippets in each file
+  for (const path of paths) {
+    // console.log(`Checking file: ${path}`)
     pathMap[path] = false
-  })
+    try {
+      checkCodeSnippets(path)
+    } catch (err) {
+      if (err instanceof Error) {
+        throw error(`File ${path} doesn't have a code snippet: ${err.message}`)
+      } else {
+        throw error(`An error occurred while checking ${path} for code snippets`)
+      }
+    }
+  }
 
   const result = await lintContent(paths)
 
